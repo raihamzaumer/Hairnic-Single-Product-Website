@@ -1,0 +1,47 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar  */
+.navbar{
+    width: 100%;
+    background-color: rgb(121, 189, 155);
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #f2f0ed; 
+  }
+   /* background */
+  .back{
+    background-image: url("/img/bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(121, 189, 155);
+    overflow: hidden;
+}
+        /* card hover */
+
+.card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          }
+
+
+/* footer-link hover */
+#footer-links:hover{
+    color: blue;
+    
+
+}
+.btn:hover{
+    background-color: rgb(121, 189, 155);
+
+}
+
+
+
+  
